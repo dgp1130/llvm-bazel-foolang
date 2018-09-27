@@ -1,0 +1,5 @@
+Hello World!
+
+This is foo source code, it is compiled to a program
+which prints the this text with "foo: " prepended to
+every line.
