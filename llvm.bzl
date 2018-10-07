@@ -12,7 +12,7 @@ def _impl(ctx):
     version = ctx.attr.version
     name = "clang+llvm-%s-x86_64-linux-gnu-ubuntu-16.04" % version
     ctx.download_and_extract(
-        url = "http://releases.llvm.org/%s/%s.tar.xz" % (version, name),
+        url = "https://releases.llvm.org/%s/%s.tar.xz" % (version, name),
     )
 
     # Create a bash wrapper of llc to invoke it from Bazel.
